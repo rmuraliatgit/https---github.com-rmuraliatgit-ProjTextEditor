@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5em;
 }
 
 .App-logo {
@@ -35,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+ 
+.editor{
+  margin-right: 10em;
+}
+
+.ck-editor__editable_inline{
+  min-height: 500px;
 }
